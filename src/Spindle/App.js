@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import Assessment from "../Assessment";
 
+
 function App() {
   return (
     <div className="bg-slate-800 pt-16 w-screen h-screen flex items-center flex-col">
@@ -13,6 +14,7 @@ function App() {
       </div>
       <div className="bg-white border-4 border-dashed border-gray-200 rounded-lg">
         <Assessment width={800} height={300} />
+
       </div>
     </div>
   );
